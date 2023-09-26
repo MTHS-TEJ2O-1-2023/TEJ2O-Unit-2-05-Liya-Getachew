@@ -2,7 +2,7 @@
  *
  * Created by: Liya Getachew
  * Created on: Sep 2023
- * This program ...
+ * This program shows the temperature in Kelvin.
 */
 
 basic.clearScreen()
@@ -18,7 +18,7 @@ input.onButtonPressed(Button.A, function () {
 
   // process
   temperature = temperature + 273.15
-  temperature =  Math.round(temperature)
+  temperature = Math.round(temperature)
 
   // output
   basic.showString('The temperature is ' + temperature.toString() + 'K.')
